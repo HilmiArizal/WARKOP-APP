@@ -1,21 +1,19 @@
 <template>
-  <div class="home">
+  <div>
     <Navbar />
-    <div class="container">
-      <Hero />
-    </div>
+    <h2>Daftar Makanan</h2>
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue";
-import Hero from "@/components/Hero.vue";
 
 export default {
-  name: "Home",
+  name: "Foods",
   components: {
     Navbar,
-    Hero,
   },
 };
 </script>
+
+<style></style>
