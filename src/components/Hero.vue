@@ -8,9 +8,9 @@
             in your gadget!
           </h2>
           <p>Ayo segera pilih pesanan favorite anda sekarang</p>
-          <button class="btn btn-lg btn-primary">
+          <router-link class="btn btn-lg btn-primary" to="foods">
             <b-icon-arrow-right /> Pesan
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
